@@ -1,0 +1,37 @@
+{{#partial 'content'}}
+    <br>
+    <br>
+    <br>
+
+    <p class="glow"> Welcome to wildlife tracker <br> here you will get to see all available sightings </p>
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="sight">
+
+
+                {{#if sightings}}
+                    {{#each sightings }}
+
+                        <p>Sighting reported by Ranger {{rangerName}} at {{location}}
+                            <a href="/animals/{{animalId}}/sightings/{{id}}" class="button btn-warning btn-sm"style="float: right;">See more</a>
+
+                        </p>
+                        <br>
+                        <br>
+                        <br>
+
+                    {{/each}}
+                {{else}}
+                    <br>
+                    <br>
+                    <p>No sightings reported!!</p>
+                {{/if}}
+            </div>
+        </div>
+    </div>
+
+
+{{/partial}}
+
+{{> layout.hbs}}
