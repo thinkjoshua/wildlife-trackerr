@@ -17,3 +17,11 @@ jmusau62@gmail.com
 * Maven.
 * Bootstrap.
 * JUnit v4.12.
+* 
+##### Setup instructions
+
+To set up this project:
+
+* Clone the repository by executing the following command in your terminal in the directory of your choice -  git clone https://github.com/thinkjoshua/wildlife-trackerr
+
+* Build project
