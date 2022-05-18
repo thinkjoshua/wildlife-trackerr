@@ -1,0 +1,45 @@
+
+{{#block "header"}}
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>{{#block "title"}}Wildlife Tracker {{/block}}</title>
+        <link rel="stylesheet" href="/css/layout.css">
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+    </head>
+    <body>
+{{/block }}
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <ul class="nav nav-tabs"  >
+                <li role="presentation" class="active"><a href="/">Home</a></li>
+                <li role="presentation"><a href="/animals-form">Record sightings</a></li>
+                <li role="presentation"><a href="/animal-sighting">View sighting</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <!--begin main template-->
+    <div class="col-md-6" id="out">
+        {{#block "content"}}
+        {{/block}}
+
+    </div>
+</div>
+<!--end main template-->
+{{#block "footer"}}
+    <!--    <footer class="footer">-->
+    <!--        <div class="container">-->
+    <!--            <img src="img/facebook.png" alt="Facebook">-->
+    <!--            <img src="img/skype.png" alt="Skype">-->
+    <!--            <img src="img/twitter.png" alt="Twitter">-->
+    <!--            <img src="img/you_tube.png" alt="YouTube">-->
+    <!--        </div>-->
+    <!--    </footer>-->
+    </body>
+    </html>
+{{/block}}

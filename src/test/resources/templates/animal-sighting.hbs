@@ -1,0 +1,38 @@
+
+{{#partial "content"}}
+    <div class="container">
+        <link rel="stylesheet" href="/css/animal-sighting.css">
+        <div class="row">
+            <div class="col">
+                <h3>Animals viewed</h3>
+                {{#each sightings}}
+                    <div class="card-group">
+                        <div class="card">
+
+                            <p>Animal: {{name}}</p>
+                            <p>Category:{{type}}</p>
+                            <p>Health: {{health}}</p>
+                            <p>Age:   {{age}}</p>
+                            <p>Location Spotted at:{{location}}</span></p>
+                            <p >Submitted by:{{rangerName}}</p>
+                            <p>Posted on{{lastSeen}}</p>
+
+                        </div>
+                    </div>
+                {{/each}}
+                <div class="detail" >
+                    <a href="/animals-form">Add another animal</a>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+{{/partial}}
+
+{{> layout.hbs}}

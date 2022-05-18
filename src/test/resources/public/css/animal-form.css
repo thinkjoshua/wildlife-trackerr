@@ -1,0 +1,19 @@
+body{
+    background-image:url(/images/wildlife1.jpg);
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Open Sans',serif;
+    color:white;
+}
+
+label{
+color:white;
+font-size: 20px;
+}
+h2{
+color:white;
+font-size:30px;
+}
+

@@ -1,0 +1,23 @@
+.card{
+    margin-bottom: 30px;
+     background-color: rgba(255,255,255, 0.9);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 40%;
+
+  }
+
+ body{
+     background-image:url(/images/wildie.jpg);
+     height: 100vh;
+     background-repeat:repeat;
+    background-position: center;
+     font-family: 'Open Sans',serif;
+ }
+ .detail{
+ color:white;
+ font-size:50px;
+ }
+h3{
+ color:white;
+ font-size:50px;
+ }

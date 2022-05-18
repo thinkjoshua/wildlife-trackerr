@@ -1,0 +1,60 @@
+
+{{#partial "content"}}
+    <link rel="stylesheet" href="/css/animal-form.css">
+
+
+    <div class="container">
+        <h2> Animal sighting form</h2>
+        <form action="/animal-sighting" method="POST" >
+            <div class="form">
+                <label for ="animal"> Animal Name</label>
+                <input type="text"  class="form-control w-50" id="animal " name="animal" required>
+            </div>
+            <div class="form">
+                <label for ="location"> Location</label>
+                <select id="location" class="form-control w-50" name="location">
+                    <option>-Select-</option>
+                    <option value="north">Zone A</option>
+                    <option value="north-east">NE Quadrant</option>
+                    <option value="south">Near the River </option>
+                </select>
+            </div>
+            <div class="form">
+                <label for ="health"> Health</label>
+                <select id="health" class="form-control w-50" name="health">
+                    <option>-Select-</option>
+                    <option value="healthy">Healthy</option>
+                    <option value="ill">Ill</option>
+                    <option value="okay">Okay</option>
+                </select>
+            </div>
+            <div class="form">
+                <label for ="age"> Age</label>
+                <select id="age" class="form-control w-50" name="age">
+                    <option>-Select-</option>
+                    <option value="newborn">Newborn</option>
+                    <option value="young">Young</option>
+                    <option value="adult">Adult</option>
+                </select>
+            </div>
+            <div class="form">
+                <label for ="type">Type</label>
+                <select id="type" class="form-control w-50" name="type">
+                    <option>-Select-</option>
+                    <option value="endangered">Endangered</option>
+                    <option value="young">Not Endangered</option>
+                </select>
+            </div>
+            <div class="form">
+                <label for ="ranger"> Rangers </label>
+                <input type="text"  class="form-control w-50" name="ranger"  id="ranger" required>
+            </div>
+
+            <br>
+            <br>
+            <button type="submit" class="btn btn-info">Submit</button>
+        </form>
+    </div>
+{{/partial}}
+
+{{> layout.hbs}}
