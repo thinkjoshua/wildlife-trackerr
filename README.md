@@ -58,4 +58,13 @@ To set up this project:
   
   * Create a Pull Request 
 
+#### Build with
+
+* Java - The language used for project.
+
+* Intellij Idea - Integrated development
+
+* Spark - Framework.
+ 
+* PostgresSql
 
