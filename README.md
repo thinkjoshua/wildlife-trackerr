@@ -6,3 +6,6 @@ Wildlife tacker is An application that allows Rangers to track wildlife sighting
 ### Author
 
 Joshua Musau.
+### Contact information
+
+jmusau62@gmail.com
