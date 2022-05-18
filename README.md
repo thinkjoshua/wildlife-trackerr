@@ -9,3 +9,11 @@ Joshua Musau.
 ### Contact information
 
 jmusau62@gmail.com
+
+## Technologies used
+* Java v9.
+* Spark.
+* Gradle.
+* Maven.
+* Bootstrap.
+* JUnit v4.12.
