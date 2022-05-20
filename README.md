@@ -67,7 +67,9 @@ To set up this project:
 * Spark - Framework.
  
 * PostgresSql
-### Database Setup
+
+### Database Setup 
+
 *CREATE DATABASE wildlife_tracker;
 
 *\c wildlife_tracker;
